@@ -6,7 +6,7 @@ import scipy
 app = Flask(__name__)
 
 def compute_coeffs():
-	csv_file = open('dop_c.csv','r')
+	csv_file = open('dop_c2.csv','r')
 	dim1 = []
 	dim2 = []
 	lines = csv_file.readlines()
